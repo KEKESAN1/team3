@@ -1,6 +1,8 @@
 #Greenfoot project file
 class.A.image=tux.png
 class.C.image=snake2.png
+class.D\u3055\u3093.image=boy2.png
+class.MyWorld.image=\u5ECA\u4E0B.jpg
 editor.fx.0.height=0
 editor.fx.0.width=0
 editor.fx.0.x=0
@@ -51,7 +53,7 @@ target4.width=80
 target4.x=0
 target4.y=0
 version=3.0.0
-width=825
+width=1045
 world.lastInstantiated=MyWorld
-xPosition=777
-yPosition=261
+xPosition=879
+yPosition=384
