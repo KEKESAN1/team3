@@ -2,10 +2,18 @@
 class.A.image=tux.png
 class.C.image=snake2.png
 class.D\u3055\u3093.image=boy2.png
+<<<<<<< HEAD
 editor.fx.0.height=739
 editor.fx.0.width=816
 editor.fx.0.x=552
 editor.fx.0.y=100
+=======
+class.MyWorld.image=\u5ECA\u4E0B.jpg
+editor.fx.0.height=738
+editor.fx.0.width=816
+editor.fx.0.x=552
+editor.fx.0.y=101
+>>>>>>> d7821169680025453907077adebe59cd46cbbb79
 height=585
 package.numDependencies=0
 package.numTargets=4
@@ -52,7 +60,12 @@ target4.width=80
 target4.x=0
 target4.y=0
 version=3.0.0
-width=825
+width=1045
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
 xPosition=1010
 yPosition=54
+=======
+xPosition=867
+yPosition=396
+>>>>>>> d7821169680025453907077adebe59cd46cbbb79
