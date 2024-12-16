@@ -15,20 +15,29 @@ public class MyWorld extends World
         back = new GreenfootImage( "./images/back.png" );
         back_flop = new GreenfootImage( "./images/back2.png" );
         back_width = back.getWidth();
+        
+        addObject( new Gakusei(), 100, 220 );
+
     }
 
     public void act()
     {
-        back_x += back_dx;
-        if( back_x > 0){
-            back_x -= back_width;
-            flop = !flop;
+        if( Greenfoot.isKeyDown( "right" ) )
+        {
+            back_x += back_dx;
+            if( back_x > 0){
+                back_x -= back_width;
+                flop = !flop;
+            }
+            if( back_x < -back_width ){
+                back_x += back_width;
+                flop = !flop;
+            }
+            getBackground().drawImage( flop ? back_flop : back, back_x, 0 );
+            getBackground().drawImage( flop ? back : back_flop, back_x+back_width, 0 );
+        
+            showText( "back_x : "+ back_x, 100, 10 );
+            
         }
-        if( back_x < -back_width ){
-            back_x += back_width;
-            flop = !flop;
-        }
-        getBackground().drawImage( flop ? back_flop : back, back_x, 0 );
-        getBackground().drawImage( flop ? back : back_flop, back_x+back_width, 0 );
     }
 }
