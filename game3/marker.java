@@ -19,20 +19,19 @@ public class marker extends Actor
         getImage().scale(120, 210);
         
         MyWorld world = (MyWorld)getWorld();
+        if( isAtEdge() ){
+                    getImage().setTransparency(0);
+                }  
         if( Greenfoot.isKeyDown( "right" ) )
             {
                 move(-3);
                 
-                if( isAtEdge() ){
-                    getImage().setTransparency(0);
-                }   
                 if( world.flop == false ){
                     if( world.back_x > -3 ){
                         move(540);
                         getImage().setTransparency(255);
                     }
                 }
-                
             } 
     }  
 }
