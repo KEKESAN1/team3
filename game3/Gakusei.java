@@ -13,25 +13,21 @@ public class Gakusei extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     
-    // img  = new GreenfootImage( "images/Gakusei_Default.png" );
-    
     public void Gakusei() 
     { 
-        //img = new GreenfootImage( "images/Gakusei_Move.png" ); 
+         
     }
     
     public void act() 
     {
         GreenfootImage img  = new GreenfootImage( "images/Gakusei_Default.png" );
-        setImage(img); 
-        
+        setImage(img);
         getImage().scale(120, 210);
         
         if( Greenfoot.isKeyDown( "right" ) )
             {
                 img = new GreenfootImage( "images/Gakusei_Move.png" ); 
                 setImage(img); 
-                
                 getImage().scale(130, 210);
             } 
     }    
