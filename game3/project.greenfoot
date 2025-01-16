@@ -6,7 +6,28 @@ dependency1.from=MyWorld
 dependency1.to=marker
 dependency1.type=UsesDependency
 dependency2.from=MyWorld
+<<<<<<< HEAD
 dependency2.to=Gakusei
+=======
+<<<<<<< HEAD
+dependency2.to=Gakusei
+dependency2.type=UsesDependency
+dependency3.from=MyWorld
+dependency3.to=TitleLogo
+dependency3.type=UsesDependency
+dependency4.from=marker
+dependency4.to=MyWorld
+dependency4.type=UsesDependency
+editor.fx.0.height=1047
+editor.fx.0.width=974
+editor.fx.0.x=953
+editor.fx.0.y=0
+height=1056
+package.numDependencies=4
+package.numTargets=4
+=======
+dependency2.to=TitleLogo
+>>>>>>> 00537153e10c5f78b1b19c3e66afe1bafc7db8ba
 dependency2.type=UsesDependency
 dependency3.from=MyWorld
 dependency3.to=TitleLogo
@@ -19,8 +40,14 @@ editor.fx.0.width=816
 editor.fx.0.x=552
 editor.fx.0.y=100
 height=585
+<<<<<<< HEAD
 package.numDependencies=4
 package.numTargets=4
+=======
+package.numDependencies=2
+package.numTargets=3
+>>>>>>> 08cb5fcb55a768a4ab81459bc2bcd7b4f7b2488f
+>>>>>>> 00537153e10c5f78b1b19c3e66afe1bafc7db8ba
 project.charset=UTF-8
 publish.hasSource=false
 publish.locked=true
@@ -64,7 +91,12 @@ target4.width=80
 target4.x=0
 target4.y=0
 version=3.0.0
-width=1045
+width=1936
 world.lastInstantiated=MyWorld
+<<<<<<< HEAD
+xPosition=0
+yPosition=0
+=======
 xPosition=817
 yPosition=386
+>>>>>>> 08cb5fcb55a768a4ab81459bc2bcd7b4f7b2488f
