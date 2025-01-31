@@ -20,8 +20,8 @@ public class marker extends Actor
         
         MyWorld world = (MyWorld)getWorld();
         if( isAtEdge() ){
-                    getImage().setTransparency(0);
-                }  
+             getImage().setTransparency(0);
+        }  
         if( Greenfoot.isKeyDown( "right" ) )
             {
                 move(-3);
@@ -32,6 +32,11 @@ public class marker extends Actor
                         getImage().setTransparency(255);
                     }
                 }
+                
+                Actor actor = getOneIntersectingObject(Gakusei.class );
+                if( actor != null ){
+                    move(5);
+                } 
             } 
     }  
 }

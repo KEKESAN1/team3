@@ -24,7 +24,7 @@ public class MyWorld extends World
         back_flop = new GreenfootImage( "./images/back2.png" );
         back_width = back.getWidth();
         
-        addObject( new marker(), 540,200);
+        addObject( new marker(), 540, 220 );
         addObject( new Gakusei(), 100, 220 );
         
         titlelogo = new TitleLogo();
@@ -43,11 +43,12 @@ public class MyWorld extends World
         {
             if(flag == 0){
                 currentTime = System.currentTimeMillis();
-            }
-            flag = 1;
-            showText( "", 400, 115 );
             
-            back_x += back_dx;
+                flag = 1;
+                showText( "", 400, 115 );
+            
+                back_x += back_dx;
+            }
             if( back_x > 0){
                 back_x -= back_width;
                 flop = Greenfoot.getRandomNumber(2) == 0;
@@ -64,6 +65,7 @@ public class MyWorld extends World
             }else{
                 showText( "", 100, 100 );
             }*/
+            
             
             showText(""+ flop, 100, 50);
             showText( "back_x : "+ back_x, 100, 10 );
